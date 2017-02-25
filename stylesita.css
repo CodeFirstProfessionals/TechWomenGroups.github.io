@@ -1,0 +1,12 @@
+
+.jumbotron {
+	background-image: url("https://cdn.pixabay.com/photo/2015/03/17/10/54/hex-677521_1280.jpg");
+	background-size: cover;
+}
+
+h2.title1 {
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bold;
+}
