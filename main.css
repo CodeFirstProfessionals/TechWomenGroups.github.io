@@ -1,0 +1,23 @@
+.btn-info.round {
+	border-radius: 24px;
+}
+
+.description {
+  color: white;	
+}
+
+.thumbnail { 
+  box-shadow: 5px 5px grey; 
+  background-color: #8a9bd2;
+}
+
+.carousel-caption {
+	font-size: 30px;
+	color: black;
+}
+
+#carousel-project {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
