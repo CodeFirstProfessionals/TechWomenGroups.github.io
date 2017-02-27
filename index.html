@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="women in technology">  
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
@@ -19,129 +20,208 @@
 </head>
 
 <body>
-  
+
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
-
-    <div class="row">
-      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-      <div class="col-sm-6 col-md-4">
-        <div class="thumbnail">
-          <div class="caption">
-            <h3>Women in Tech Groups</h3>
-            <p class="description"> Networks, communities, organisations and professional associations supporting & championing women technologists.</p>
-
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-info round" data-toggle="modal" data-target="#GroupsModal">
-              Details
-            </button> 
-
-            <!-- Groups Modal -->
-            <div class="modal fade" id="GroupsModal" tabindex="-1" role="dialog" aria-labelledby="GroupsModalLabel">
-             <div class="modal-dialog" role="document">
-              <div class="modal-content">
-               <div class="modal-header">
-                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                 <h4 class="modal-title" id="GroupsModalLabel">Women In Tech Groups</h4>
-               </div>
-               <div class="modal-body">
-                <ul>
-
-                </ul>
-              </div>
-              <div class="modal-footer">
-               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-             </div>
-
-           </div>
-         </div>
-       </div>
-
-     </div>
+    <!-- Brand and toggle get grouped for better mobile display -->
+   <div class="navbar-header">
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+     </button>
+      <a class="navbar-left logo" href="#">
+       <img src="images/Web_Developmen.png" alt="Brand" >
+      </a>
    </div>
+
+   <!-- Collect the nav links, forms, and other content for toggling -->
+   <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+      
+     <ul class="nav navbar-nav">
+       <li><a href="#"><h4>About</h4></a></li>
+       <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h4>Women in Tech Organisations</h4><span class="caret"></span></a>
+
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu"> 
+            <li> <a href="#" data-toggle="modal"data-target="#GroupsModal">Women in Tech <strong>Groups</strong> </a></li>          
+            <li><a href="#" data-toggle="modal"data-target="#MeetUpsModal">Women in Tech <strong>Meet-Ups</strong></a></li>
+            <li><a href="#" data-toggle="modal"data-target="#EventsModal">Women Tech <strong>Events</strong></a></li>
+            
+          </ul>
+       </li>
+        
+     </ul>
+
+   </div>
+  </div>    
+ </nav>
+
+<br/>
+  
+<div id="carousel-project" class="carousel slide" data-ride="carousel">
+  <div class="container-fluid">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-project" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-project" data-slide-to="1"></li>
+    <li data-target="#carousel-project" data-slide-to="2"></li>
+  </ol>
+
+<!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item one active">
+      <div style="background:url(images/wocintech2.jpg) center center; background-size:cover;" class="slider-size"> 
+      </div> 
+    </div>
+    <div class="item two">
+      <div style="background:url(images/wit.png) center center; background-size:cover;" class="slider-size">
+      </div> 
+    </div>
+    <div class="item three">
+      <div style="background:url(images/wocintech.jpg) center center; background-size:cover;" class="slider-size">
+      </div> 
+    </div>
+
+  </div>
  </div>
 
- <div class="col-sm-6 col-md-4">
-  <div class="thumbnail">
-    <div class="caption">
-     <h3>Women in Tech Meet-Ups</h3>
-     <p class="description"> MeetUps in London targeted at women starting or advancing in digital and technology.</p>
-     <br/> 
-     <button type="button" class="btn btn-info round" data-toggle="modal" data-target="#MeetUpsModal">
-       Details
-     </button>
+<!-- Controls -->
+  <a class="left carousel-control" href="#carousel-project" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-project" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>  
+  
+<br/>
+  
+<div id="main">
+<div class="container-fluid">
 
-     <!-- Meet-Ups Modal -->
-     <div class="modal fade" id="MeetUpsModal" tabindex="-1" role="dialog" aria-labelledby="MeetUpsModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="MeetUpsModalLabel">Women In Tech Meet-Ups</h4>
-          </div>
-          
-          <div class="modal-body">
-            <ul>
-              
-            </ul>
-          </div>
-          
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+<div class="row">
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3>Women in Tech Groups</h3>
+        <p class="lead description"> Networks, communities, organisations and professional associations supporting & championing women technologists.</p>
 
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-info round" data-toggle="modal" data-target="#GroupsModal">
+        Details
+        </button>
+        
+        <!-- Groups Modal -->
+        <div class="modal fade" id="GroupsModal" tabindex="-1" role="dialog" aria-labelledby="GroupsModalLabel">
+         <div class="modal-dialog" role="document">
+          <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+             <h3 class="modal-title" id="GroupsModalLabel">Women In Tech Groups</h3>
+           </div>
+            <div class="modal-body">
+              <div class="list-group">
+               <a href="https://developher.org/" class="list-group-item" target="_blank">DevelopHer</a>
+               <a href="http://stemettes.org" class="list-group-item" target="_blank">Stemettes</a>
+               <a href="https://womeninwireless.org/" class="list-group-item" target="_blank">Women in Wireless </a>
+             </div>
+            </div>
+            <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+         </div>
+        </div>
+
+      </div>
+    </div>
+   </div>
+
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <div class="caption">
+         <h3>Women in Tech Meet-Ups</h3>
+         <p class="lead description"> Meet-Ups in London targeted at women starting or advancing in digital and technology.</p>
+         
+         <button type="button" class="btn btn-info round" data-toggle="modal" data-target="#MeetUpsModal">
+         Details
+         </button>
+
+<!-- Meet-Ups Modal -->
+<div class="modal fade" id="MeetUpsModal" tabindex="-1" role="dialog" aria-labelledby="MeetUpsModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="MeetUpsModalLabel">Women In Tech Meet-Ups</h3>
+      </div>
+      
+      <div class="modal-body">
+        <div class="list-group">
+          <a href="https://www.meetup.com/Women-Who-Code-London/" class="list-group-item" target="_blank">Women Who Code - London</a>
+          <a href="https://www.meetup.com/PyLadiesLondon/" class="list-group-item" target="_blank">Py Ladies London</a>
+        </div>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+
+      </div>
+    </div>
+   </div>
         </div>
       </div>
     </div>
 
-
-  </div>
-</div>
-</div>
-
-<div class="col-sm-6 col-md-4">
- <div class="thumbnail">
-   <div class="caption">
-    <h3>Women Tech Events</h3>
-    <p class="description">Increasing visibility, highlighting role models, celebrating success and advancing women in technology. </p>
-    <br/>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-info round" data-toggle="modal" data-target="#EventsModal">
-      Details
-    </button>
-    
-
-    <!-- Events Modal -->
-    <div class="modal fade" id="EventsModal" tabindex="-1" role="dialog" aria-labelledby="EventsModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="EventsModalLabel">Women Tech Events</h4>
-          </div>
-          <div class="modal-body">
-            <ul>
-
-            </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+    <div class="col-sm-6 col-md-4">
+     <div class="thumbnail">
+       <div class="caption">
+        <h3>Women Tech Events</h3>
+        <p class="lead description">Increasing visibility, highlighting role models, celebrating success and advancing women in technology. </p>
+        
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-info round" data-toggle="modal" data-target="#EventsModal">
+        Details
+        </button>
+        
+<!-- Events Modal -->
+<div class="modal fade" id="EventsModal" tabindex="-1" role="dialog" aria-labelledby="EventsModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h3 class="modal-title" id="EventsModalLabel">Women Tech Events</h3>
+      </div>
+      <div class="modal-body">
+        <div class="list-group">
+          <a href="http://findingada.com/" class="list-group-item" target="_blank">Ada Lovelace Day</a>
+          <a href="https://www.everywoman.com/event/2017-everywoman-forum-advancing-women-technology" class="list-group-item" target="_blank">everywoman Forum: Advancing Women in Technology</a>
+          <a href="http://www.women-in-technology.com/" class="list-group-item" target="_blank">Women of Silicon Roundabout</a>
         </div>
       </div>
-    </div> 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
   </div>
+</div> 
+       </div>
+     </div>
+    </div>
+
+ </div>
 </div>
-</div>
 
 </div>
-</div>      
 
-<div id="About" class="container-fluid">
-  
-</div>  
-
-
+<footer>
 <div id="social-buttons" class="text-align">
   <div class="container"> 
     <button class="btn btn-lg btn-twitter">Twitter</button>
@@ -149,12 +229,13 @@
     <button class="btn btn-lg btn-instagram">Instagram</button>
   </div>
 </div> 
-<!-- in div later 
+</footer>
+  
+  <!-- in div later 
 <footer>
  Made with ♥ in London
 </footer>
 -->
-
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
