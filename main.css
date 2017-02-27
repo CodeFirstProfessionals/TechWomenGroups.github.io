@@ -1,9 +1,33 @@
+body {
+ padding-top: 70px;
+}
+
+.logo > img {
+  height: 50%;
+  padding: 8px; /* firefox bug fix */
+  width: 50%;
+}
+
+.navbar {
+  background-color: #8a9bd2;
+}
+
+.dropdown .dropdown-menu {
+  width: 100%;
+  min-width: inherit;
+}
+
+li {
+  display: inline;
+  position: relative;
+}
+
 .btn-info.round {
 	border-radius: 24px;
 }
 
 .description {
-  color: white;	
+   color: white;	
 }
 
 .thumbnail { 
@@ -11,13 +35,39 @@
   background-color: #8a9bd2;
 }
 
-.carousel-caption {
-	font-size: 30px;
-	color: black;
+.carousel {
+  width: 100%;
+  margin: 0 auto; /* center the carousel if other than 100%*/
 }
 
-#carousel-project {
-  height: auto;
-  width: auto;
-  overflow: hidden;
+.slider-size {
+  height: 350px; /* This is your slider height */
+}
+
+#social-buttons {
+  margin-top: 50px;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+
+@-ms-viewport { 
+  width: device-width; 
+}
+
+@-o-viewport { 
+  width: device-width; 
+}
+
+@viewport { 
+  width: device-width; 
 }
